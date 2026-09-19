@@ -10,7 +10,8 @@ local camera = workspace.CurrentCamera
 
 local AIM_ENABLED = false
 local FOV_RADIUS = 150
-local SMOOTHNESS = 0.15
+local SMOOTHNESS = 0
+local STRENGTH = 100
 
 local gui = Instance.new("ScreenGui")
 gui.Name = "AimAssistGui"
